@@ -1,0 +1,62 @@
+h1{
+    color:red;
+font-family: 'Times New Roman', Times, serif;
+}
+h1.header{
+    color:blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+td, th, p{
+    color: aqua;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background: purple;
+}
+#main {
+    display: flex;
+}
+#basicinfo, #topten, #data {
+    width: 33%;
+    height: auto;
+    background-color: aquamarine;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 25px;
+    padding: 15px;
+}
+#header {
+    background-color: paleturquoise;
+    border-style: solid;
+    border-radius: 25px;
+    padding: 5px 15px;
+}
+img {
+
+    max-width: 100%;
+    ma
+    x-height: 100%;
+}
+.navbar {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbutton {
+    display:inline-block;
+    padding: 10px;
+    background-color: pink;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 25px;
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbutton:hover, .navbutton:active {
+    background-color: red;
+}

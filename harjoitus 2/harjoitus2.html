@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+ <meta charset="UTF-8">
+ <title>Lapintaika</title>
+ <link rel="stylesheet" href="harjoitus2.css">
+ <h1>Lapintaika Lounasravintola</h1>
+ 
+ 
+<style>
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 {grid-area: nav;}
+.item4 { grid-area: main; }
+.item5 { grid-area: right; }
+.item6 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu nav nav nav nav nav'
+    'menu main main main right right'
+    'footer footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: rgb(174, 178, 182);
+  padding: 10px;
+  width: 1310px;
+  height: 1000px;
+  background-image: url("https://media.mnn.com/assets/images/2018/08/CollectionOfCloudsAgainstABlueSky.jpg.653x0_q80_crop-smart.jpg");
+}
+
+.grid-container > div {
+  background-color: rgba(250, 214, 214, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+</style>
+</head>
+<body>
+
+<div class="grid-container">
+  <div class="item1">Maanantai<br>
+        Juusto-vihanneskeittoa ja kokin sämpylä Paistettua lohta, sinappikastiketta, tilliperunoita ja kasviksia Marjakiisseliä ja hunajakermavaahtoa<br>
+        
+        Tiistai<br>
+        Kana-fetajustosalaattia ja kokin sämpylä Paistettua punakampelaa, pinaattikastiketta ja perunamuusia Pannukakkua, mansikkahilloa ja kermavaahtoa<br>
+        
+        Keskiviikko<br>
+        Tomaatti-yrttikeittoa ja kokin sämpylä Kalkkunaleikettä, BBQ-kastiketta, riisiä ja kasviksia Omenapiirakkaa ja vaniljakastiketta<br>
+        
+        Torstai<br>
+        Rapukeittoa ja kokin sämpylä Poronkäristystä, perunamuusia, puolukkahilloa ja suolakurkkuja Hedelmäsalaattia ja kinuskikastiketta<br>
+        
+        Perjantai<br>
+        Savulohisalaatti ja kokin sämpylä Naudan paahtopaistia, punaviinikastiketta, kermaperunat ja kasviksia Suklaamousse</div>
+  <div class="item2">Lounas:11 euroa,<br>sis ruokajuoman<br> vesi,kalja,maito</div>
+  <div class="item3">Meiltä onnistuu myös catering palvelut<br> hääjuhliin,<br> hautajaisiin,<br>ylioppilas juhliin jne</div>
+  <div class="item4">Olemme myös vegaani ystävällinen ravintola!<br>Meiltä löytyy jokaisesta vaihtoehdosta vegaani vaihtoehto kassalta kysymällä.</div>  
+  <div class="item5">Lemmikit ovat meille tervetulleita!<br>Heille löytyy meiltä omia itsetehtyjä herkkuja:)</div>
+  <div class="item6">Ravintola Lapintaika,<br> 
+    Ravintolakatu 2, 98765 LAPINMAA<br>
+
+    Puh. (012) 345 6789<br>
+     Sähköposti: varaukset@jokuposti.net<br>
+        
+    aukioloajat: ma - pe, 10:30 - 15:00</div>
+</div>
+</body>
+</html>

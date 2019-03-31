@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<html lang="fi">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="harjoitus2lomake.css">
+<body>
+
+<h2>Tyytyväisyyslomake</h2>
+<p>Tässä voitte kertoa omat mielipiteenne lounasravintolastamme!:). Otamme mielellämme kaikki hyvät sekä huonot kommentit vastaan.</p>
+
+<form action="/action_page.php">
+Etunimi:<br>
+<input type="text" name="Etunimi">
+<br>
+Sukunimi:<br>
+<input type="text" name="Sukunimi">
+<br><br>
+<input type="radio" name="gender" value="male" checked> Mies<br>
+<input type="radio" name="gender" value="female"> Nainen<br>
+<input type="radio" name="gender" value="other"> Muu<br>
+<p>käyntipäivä</p>
+<input type="date" name="käyntipäivä"><br><br>
+<p>Tähän  voit kertoa vapaasti omin sanoin mielipiteesi ravintolastamme mm. ruuan mausta, ruuan tulon kestosta, hinnastosta ja laadusta</p>
+<textarea name="message" rows="5" cols="30">
+</textarea><br><br>
+<p>Tästä voit valita kokonaiskuvaasi vastaavan vaihtoehdon ruokailukokemuksesta:)</p>
+<select name="tyytyväisyys">
+<option value="huono">Huono</option>
+<option value="hyvä">Hyvä</option>
+<option value="loistava">Loistava</option>
+<option value="other">Muu</option>
+</select><br><br>
+<p>Jos haluat että otamme teihin yhteyttä jossain teitä askarruttavassa asiassa jätättehän alle sähköpostiosoitteenne
+</p><br>
+<p>E-mail:</p>
+ <input type="email" name="email"><br><br>
+<input type="submit">
+</form>
+
+</head>
+</body>
+</html>

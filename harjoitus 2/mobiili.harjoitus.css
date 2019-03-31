@@ -1,0 +1,52 @@
+h1{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 150px auto 150px;
+    grid-template-rows: repeat(3, 100px);
+    grid-gap: 1em;
+  }
+
+ html{
+     background-color: mistyrose;
+ }
+ @media screen and (max-width: 960px){
+    body {
+        display: grid;
+        grid-template-areas:
+          'header header header header header header'
+          'menu nav nav nav nav nav'
+          'menu main main main right right'
+          'footer footer footer footer footer footer';
+        grid-gap: 10px;
+        background-color: rgb(174, 178, 182);
+        padding: 10px;
+        width: 1310px;
+        height: 1000px;
+        background-image: url("https://media.mnn.com/assets/images/2018/08/CollectionOfCloudsAgainstABlueSky.jpg.653x0_q80_crop-smart.jpg");
+      }
+    }
+  }
+  
+  @media screen and (max-width: 480px){
+    body {
+      display: flex;
+      flex-direction: column;
+      background-color: #3196F3;
+      padding: 3px;
+      font-size: 10px;
+      }
+  
+    aside {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 320px){
+    body {
+      width: 320px;
+    }
+  }
